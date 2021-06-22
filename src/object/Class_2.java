@@ -13,15 +13,17 @@ public class Class_2 extends Class_1{
         super.setNamaminuman(namaminuman);
     }
 
-    public String namapelanggan;
+    public String nampel;
+    public String totalharga;
 
-    public String getNamapelanggan() {
-        return namapelanggan;
+    public String getNampel() {
+        return nampel;
     }
 
-    public void setNamapelanggan(String namapelanggan) {
-        this.namapelanggan = namapelanggan;
+    public void setNampel(String nampel) {
+        this.nampel = nampel;
     }
+
 
     public String getTotalharga() {
         return totalharga;
@@ -32,18 +34,17 @@ public class Class_2 extends Class_1{
     }
 
 
-    public String totalharga;
+
 
     public Class_2(){
-        this.namapelanggan="";
-        this.totalharga="";
-        System.out.println("Terimakasih");
+        this.nampel = "";
+        this.totalharga = "";
 
     }
 
     public void strukpembayaran(){
         System.out.println("======================================");
-        System.out.println("Nama Pelanggan  : "+namapelanggan);
+        System.out.println("Nama Pelanggan  : "+ nampel);
         System.out.println("======================================");
     }
     public void Pembayaran(){
